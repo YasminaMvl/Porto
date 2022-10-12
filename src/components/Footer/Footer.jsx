@@ -1,9 +1,24 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import './footer.css'
 
 const Footer = () => {
   return (
-    <section id='footer'>Footer</section>
+    <footer>
+      
+      <a href="#" className='footer_logo'>En vous remerciant pour la visite</a>
+    
+      <ul className='permalinks'>
+        <li><a href="#">Home</a> </li>
+        <li><a href="#about">About</a> </li>
+        <li><a href="#experience">Experience</a> </li>
+        <li><a href="#services">Services</a> </li>
+        <li><a href="#portfolio">Portfolio</a> </li>
+        <li><a href="#contact">Contact</a> </li>
+       
+      </ul>
+
+    </footer>
   )
 }
 
