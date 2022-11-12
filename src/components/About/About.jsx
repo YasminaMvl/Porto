@@ -3,7 +3,6 @@ import React from 'react'
 import './about.css'
 import ME from '../../assets/pp.png'
 import {FaAward} from 'react-icons/fa'
-import {FiUsers} from 'react-icons/fi'
 import {MdOutlineFolderSpecial} from 'react-icons/md'
 
 const About = () => {
@@ -27,22 +26,20 @@ const About = () => {
               <h5>Experience</h5>
               <small>Junior</small>
             </article>
-
-            <article className='about__card'>
-              <FiUsers className='about__icon'/>
-              <h5>Clients</h5>
-              <small>Mom</small>
-            </article>
+             
+          
 
             <article className='about__card'>
               <MdOutlineFolderSpecial className='about__icon'/>
-              <h5>Projects</h5>
-              <small>from 1 to 10</small>
+              <h5>Projets</h5>
+              <small>En cours...</small>
             </article>
           </div>
           
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur eveniet itaque, culpa quidem facere voluptatum eos voluptatibus assumenda, cum iusto repudiandae sequi suscipit non, fugiat adipisci id officiis! Tempore, rerum.
+            Trés passionnée par le dévelopement web et le UI/UX, j'ai choisi d'y consacrer beaucoup de temps et d'amour.
+            J'aime créer des expériences soignées et fonctionnelles et découvrir les autres facettes du monde de l'informatique !
+             Je fais preuve d'une  facilité de contact et d'une énorme soif d'apprendre .
           </p>
 
         

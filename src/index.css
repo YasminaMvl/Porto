@@ -12,27 +12,27 @@
 
 :root {
     --color-bg: #202030;
-    --color-bg-variant : #f1dede5b;
-    --color-primary :#56E39F;
-    --color-primary-variant :#F3F9D2;
-    --color-white : #fff;
-    --color-light:#eafffd6c;
+    --color-bg-variant: #f1dede5b;
+    --color-primary: #56E39F;
+    --color-primary-variant: #F3F9D2;
+    --color-white: #fff;
+    --color-light: #eafffd6c;
 
-    --transition: all 400ms ease ;
+    --transition: all 400ms ease;
 
-    --container-width-lg:75%;
+    --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
 
 html {
     scroll-behavior: smooth;
-    
+
 }
 
 ::-webkit-scrollbar {
     display: none;
-    
+
 }
 
 body {
@@ -40,9 +40,8 @@ body {
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
-    
-   
+    background-image: url(../src/assets/chalkboard.jpg);
+
 }
 
 /*===== GENERAL STYLES ======= */
@@ -52,24 +51,28 @@ body {
     margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 500;
 }
 
 section {
-    margin-top: 8rem;
-   
+    margin-top: 6rem;
+
 }
 
-section > h2, 
-section > h5{
-    text-align:center;
+section>h2,
+section>h5 {
+    text-align: center;
     color: var(--color-light);
 }
 
-section > h2 {
+section>h2 {
     color: var(--color-primary);
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .text-light {
@@ -103,7 +106,7 @@ a:hover {
 }
 
 .btn-prymary {
-    background:var(--color-primary);
+    background: var(--color-primary);
     color: var(--color-bg);
 }
 
@@ -125,9 +128,11 @@ img {
 @media screen and (max-width:600px) {
     header {
         height: 100vh;
+        width: 100%;
     }
 
-    .header__socials, .scroll__down {
+    .header__socials,
+    .scroll__down {
         display: none;
     }
 }
