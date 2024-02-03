@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import './about.css'
-import ME from '../../assets/pp.png'
+import PANDA from '../../assets/panda-head-avatar.png'
 import {FaAward} from 'react-icons/fa'
 import {MdOutlineFolderSpecial} from 'react-icons/md'
 
@@ -14,7 +14,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ ME } alt="About picture" />
+            <img src={ PANDA } alt="About picture" />
           </div>
 
         </div>

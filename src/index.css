@@ -13,17 +13,19 @@
 :root {
     --color-bg: #202030;
     --color-bg-variant: #f1dede5b;
-    --color-primary: #56E39F;
+    --color-primary: #e6e913;
     --color-primary-variant: #F3F9D2;
     --color-white: #fff;
     --color-light: #eafffd6c;
-
+    --color-hover: #e5e913b6 ;
     --transition: all 400ms ease;
+    --color-a :#e6e913 ;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
     --container-width-sm: 90%;
 }
+
 
 html {
     scroll-behavior: smooth;
@@ -59,6 +61,9 @@ h5 {
     font-weight: 500;
 }
 
+h3 {
+    color: #e6e913;
+}
 section {
     margin-top: 6rem;
 
@@ -85,7 +90,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-white);
+    color: var(--color-a);
 }
 
 .btn {
@@ -100,8 +105,8 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: var(--color-white);
-    color: var(--color-bg);
+    background-color: var(--color-hover);
+    color: var(--color-white);
     border-color: transparent;
 }
 

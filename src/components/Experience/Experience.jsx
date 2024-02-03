@@ -68,14 +68,14 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>POSTGRE/SQL</h4>
-                <small className='text-ligt'>Basic</small>
+                <small className='text-ligt'>Intermediate</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon' />
               <div>
                 <h4>EXPRESS</h4>
-                <small className='text-ligt'>Basic</small>
+                <small className='text-ligt'>Intermediate</small>
               </div>
             </article>
 
@@ -86,11 +86,102 @@ const Experience = () => {
                 <small className='text-ligt'>Basic</small>
               </div>
             </article>
+          </div>
+        </div>
 
+         <div className="experience__backend">
+        <h3>Web Designer </h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Figma</h4>
+                <small className='text-ligt'>Intermediate</small>
+              </div>
+            </article>
 
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Canva</h4>
+                <small className='text-ligt'>Basic</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>UI /UX</h4>
+                <small className='text-ligt'>Basic</small>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>SEO</h4>
+                <small className='text-ligt'>Basic</small>
+              </div>
+            </article>
+
+        <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Socials </h4>
+                <small className='text-ligt'>Basic</small>
+              </div>
+            </article>
           
           </div>
         </div>
+
+         <div className="experience__backend">
+        <h3>Soft Skills </h3>
+          <div className="experience__content">
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Multi-Potential</h4>
+              </div>
+            </article>
+
+               <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Fast learner </h4>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Organisation</h4>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Curiosity</h4>
+              </div>
+            </article>
+
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Hardworker</h4>
+              </div>
+            </article>
+
+        <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon' />
+              <div>
+                <h4>Empath </h4>  
+              </div>
+            </article>
+       
+
+          </div>
+        </div>
+
       </div>
     </section>
   )

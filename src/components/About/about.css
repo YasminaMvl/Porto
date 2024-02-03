@@ -5,16 +5,15 @@
 }
 
 .about__me {
-    width: 100%;
+        margin-top: 30px;
     aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
-    place-items: center;
+    place-items: start;
+    justify-content: center;
+    align-items: center;
 }
 
 .about__me-image {
-    border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
@@ -46,7 +45,7 @@
 }
 
 .about__icon {
-    color: var(--color-primary);
+    color: var(--color-a);
     font-size: 1.4rem;
     margin-bottom: 1rem;
 }
@@ -78,8 +77,8 @@
     }
 
     .about__me {
-        width: 50%;
-        margin: 2rem auto 4rem;
+        width: 80%;
+        margin: auto;
     }
 
     .about__content p {

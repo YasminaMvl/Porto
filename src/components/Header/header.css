@@ -6,8 +6,7 @@
 }
 
 .container-header__container {
-    margin: auto;
-    margin-right: 4rem;
+    width:300px ;
 }
 
 
@@ -17,7 +16,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    justify-content: center;
+}
+.a:hover {
+    color :#e6e913;
 }
 
 .header__container {
@@ -28,17 +30,14 @@
 
 .header-about__me {
     width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 2rem;
-    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
+    
 }
 
 .header-image {
     border-radius: 2rem;
     overflow: hidden;
-
     transform: rotate(10deg);
     transition: var(--transition);
 }
@@ -57,7 +56,7 @@
 .about__content p {
     text-align: center;
     margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    color: var(--color-hover);
 }
 
 .btn_socials {
@@ -124,7 +123,7 @@
 
     .btn_socials {
         display: flex;
-        width: 55%;
+        width: 80%;
         color: var(--color-primary);
         border-radius: 0.4rem;
         cursor: pointer;
