@@ -1,13 +1,13 @@
 .experience__container {
     display: flex;
     grid-template-columns: 1fr 1fr;
-    justify-content: space-evenly;
+    justify-content: center;
     justify-items: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
+    align-items: stretch;
+    flex-direction: column;
     align-content: center;
     gap: 2rem;
+    flex-wrap: nowrap;
 }
 
 #experience {
