@@ -1,7 +1,13 @@
 .experience__container {
-    display: grid;
-    align-content: space-between;
-    justify-content: center;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 2rem;
 }
 
 #experience {
@@ -11,12 +17,17 @@
 
 
 .experience__container>div {
+    display: flex;
     background: var(--color-bg-variant);
+    /* gap: 1rem; */
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
-
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
 }
 
 .experience__container>div:hover {
@@ -47,7 +58,11 @@
     color: var(--color-primary);
 }
 
-
+.exp-image img {
+    /* display: flex; */
+    width: 60%;
+    /* width: 100%; */
+}
 /*===== MEDIA QUERIES (MEDIUM DEVICES)======= */
 
 @media screen and (max-width:1024px) {
@@ -79,4 +94,8 @@
         padding: 2rem 1 rem;
     }
 
+    .exp-image img {
+    width: 90%;
+   
+}
 }

@@ -7,6 +7,8 @@ const Footer = () => {
     <footer>
       
       <a href="#" className='footer_logo'>En vous remerciant pour la visite</a>
+      <br />
+      <a href="#" className='footer_logo'>© Tous droits réservés</a>
     
       <ul className='permalinks'>
         <li><a href="#">Home</a> </li>
