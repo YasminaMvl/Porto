@@ -107,4 +107,12 @@
     .about__content p {
         margin: 1.5rem 0;
     }
+    img {
+    /* display: inline; */
+    border-radius: 45px;
+    border: 3px #ff00a870 solid;
+    /* margin-bottom: 95px; */
+    /* width: 500px; */
+    height: 500px;
+}
 }

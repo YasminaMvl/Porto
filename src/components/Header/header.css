@@ -1,165 +1,118 @@
 .container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2rem;
-    margin-top: 6rem;
-}
-
-.container-header__container {
-    width:300px ;
-}
-
-
-
-.socials {
-
-    display: flex;
-    flex-direction: column;
+  display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-}
-.a:hover {
-    color :#e6e913;
+    justify-content: space-evenly;
+    margin-top: 5rem;
 }
 
-.header__container {
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+.head {
+  font-size: 24px;
+  color: var(--color-light);
+  text-align: center;
+}
+
+.head h2{
+    font-size: 30px;
+    color: var(--color-a);
+    text-align: center;
+}
+.container-header__container {
+  display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-top: 2rem;
 }
 
 .header-about__me {
-    width: 100%;
-    display: grid;
-    place-items: center;
-    
+     display: flex;
+    position: relative;
+    text-align: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
 }
 
 .header-image {
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
-    transition: var(--transition);
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: var(--transition);
+  width: 550px;
+  margin-top: 1rem;
 }
 
 .header-image:hover {
-    transform: rotate(0);
+  transform: rotate(0);
 }
 
-.about__container {
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
+.socials {
+  display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    flex-direction: row-reverse;
+    gap: 30px;
 }
 
+.btn_social {
+  margin: 0 0.5rem; /* Ajout de marges entre les boutons sociaux */
+}
 
-.about__content p {
-    text-align: center;
-    margin: 2rem 0 2.6rem;
-    color: var(--color-hover);
+.btn_social a {
+  color: var(--color-primary);
 }
 
 .btn_socials {
-    display: flex;
-    width: 55%;
-    color: var(--color-primary);
-    border-radius: 0.4rem;
-    cursor: pointer;
-    transition: var(--transition);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row; /* Aligner les boutons sociaux horizontalement */
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
 }
 
 .btn_socials a {
+  margin: 0 0.5rem; /* Ajout de marges entre les boutons sociaux */
+}
+
+.btn_socials a:last-child {
+  margin-right: 0; /* Aucune marge à droite pour le dernier bouton social */
+}
+
+.btn_socials,
+.btn_social {
+  margin-top: 1rem; /* Ajout de marge entre les boutons sociaux et le bouton Télécharger CV */
+}
+
+.btn_socials,
+.btn_social,
+.btn-social-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-social-download a {
+  color: var(--color-primary);
+  display: block;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+ .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5rem;
 }
-
-.socials a {
+  .header-image {
+    width: 100%;
+  }
+  .container-header__container {
     display: flex;
-    flex-direction: row;
-    margin-top: 1rem;
-    text-align: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin-top: 2rem;
 }
-
-.portfolio__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
-    justify-content: center;
-}
-
-
-
-
-@media screen and (max-width:600px) {
-
-    section {
-        margin-top: 2rem;
-    }
-
-    section>h5 {
-        margin: auto;
-        /* margin-bottom: 50px; */
-        text-align: center;
-        color: var(--color-light);
-    }
-
-    section>h2 {
-        color: var(--color-primary);
-        margin: auto;
-        /* margin-bottom: 3rem; */
-    }
-
-    .container {
-        display: flex;
-        margin-top: 3rem;
-        flex-direction: column-reverse;
-        align-items: center;
-        margin-bottom: 3rem;
-    }
-
-    .btn_socials {
-        display: flex;
-        width: 80%;
-        color: var(--color-primary);
-        border-radius: 0.4rem;
-        cursor: pointer;
-        transition: var(--transition);
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-        margin-top: 40px;
-    }
-
-    .container-header__container {
-
-        width: 100%;
-    }
-
-    .about__content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-    }
-
-    .about__card {
-        display: flex;
-        background: var(--color-bg-variant);
-        border: 1px solid transparent;
-        border-radius: 1rem;
-        padding: 2rem;
-        text-align: center;
-        transition: var(--transition);
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        align-content: center;
-    }
-
-
 }
