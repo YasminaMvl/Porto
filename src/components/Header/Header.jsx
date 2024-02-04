@@ -10,12 +10,12 @@ const Header = () => {
     <section className='header'>
       <div className='container'>
         <div className='head'>
-          <h5 className='color-light'>Hello , I'm</h5>
-          <h2 className='color-primary'>Yasmina </h2>
-          <h5 className='color-light'>Junior </h5>
-          <h5 className='color-light'>Front end Developer </h5>
+          <h5 className='color-light'>Hello, I'm</h5>
+          <h2 className='color-primary'>Yasmina</h2>
+          <h5 className='color-light'>Junior</h5>
+          <h5 className='color-light'>Front end Developer</h5>
           <h5 className='color-light'>&</h5>
-          <h5 className='color-light'>UI /UX Designer</h5>
+          <h5 className='color-light'>UI/UX Designer</h5>
         </div>
         <div className='container-header__container'>
           <div className='header-about__me'>
@@ -34,7 +34,7 @@ const Header = () => {
             </div>
           </div>
           <div className='header-image'>
-            <img src={ME1} alt='Header picture' width='550px' />
+            <img src={ME1} alt='Yasmina' width='550px' />
           </div>
         </div>
       </div>
@@ -43,4 +43,3 @@ const Header = () => {
 };
 
 export default Header;
-
